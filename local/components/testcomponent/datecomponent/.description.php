@@ -3,11 +3,9 @@ $arComponentDescription = array(
 "NAME" => GetMessage("Текущая дата"),
 "DESCRIPTION" => GetMessage("Выводим текущую дату"),
 "PATH" => array(
-"ID" => "test_data_components",
-"CHILD" => array(
-"ID" => "curdate",
-"NAME" => "Текущая дата"
-)
+    "ID" => "test_data_component",
+    "NAME" => GetMessage("TestDataComponent"),
+    "SORT" => 10000,
 ),
 "ICON" => "",
 );
